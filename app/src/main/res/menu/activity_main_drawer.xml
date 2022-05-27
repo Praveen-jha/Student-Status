@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/attendence"
+            android:title="@string/attendence"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/timetable"
+            android:title="@string/time_table"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_academic"
+            android:icon="@drawable/calendar"
+            android:title="@string/academic"
+            android:menuCategory="secondary"
+            />
+    </group>
+
+    <item android:title="Students"
+        android:menuCategory="secondary"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/assignment"
+                android:title="@string/assignment"
+                android:menuCategory="secondary"
+                />
+
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/fee"
+                android:title="Notes"
+                android:menuCategory="secondary"
+                />
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/fee"
+                android:title="College map"
+                android:menuCategory="secondary"
+                />
+
+        </menu>
+
+    </item>
+</menu>

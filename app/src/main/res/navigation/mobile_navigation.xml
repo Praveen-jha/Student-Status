@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.studentstatus.attendence.Attendance"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_attendance" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.studentstatus.assignments.Assignments"
+        android:label="Assignments"
+        tools:layout="@layout/fragment_assignments" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.studentstatus.timeTable.TimeTable"
+        android:label="Time Table"
+        tools:layout="@layout/fragment_time_table" />
+
+    <fragment
+        android:id="@+id/nav_academic"
+        android:name="com.example.studentstatus.acadmicCalendar.AcademicCalendar"
+        android:label="Academic Calendar"
+        tools:layout="@layout/fragment_academic_calendar"
+        />
+    <fragment
+        android:id="@+id/notes"
+        android:name="com.example.studentstatus.notes.Notes"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes"
+        />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.studentstatus.collegeMap.CollegeMap"
+        android:label="College Map"
+        tools:layout="@layout/fragment_college_map"
+        />
+</navigation>
